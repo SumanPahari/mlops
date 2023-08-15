@@ -36,7 +36,7 @@ jobs:
           #cml comment feature_importance.png --md >> report.md
           #cml comment residuals.png --md >> report.md
 
-          #echo "![](./feature_importance.png)" >> report.md
-          #echo "![](./residuals.png)" >> report.md
+          echo "![](./feature_importance.png)" >> report.md
+          echo "![](./residuals.png)" >> report.md
           #cml comment create report.md
           
