@@ -23,7 +23,6 @@ jobs:
 
           echo "MODEL METRICS"
           cat metrics.txt
-          
       #- name: Write CML report
       #  env:
       #    REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
