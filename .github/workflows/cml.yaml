@@ -28,7 +28,7 @@ jobs:
           # Post reports as comments in GitHub PRs
           echo "## Model metrics" > report.md
           cat metrics.txt >> report.md
-          #cml comment create report.md
+          cml comment create report.md
 
           
           echo "## Data viz" >> report.md
@@ -36,7 +36,7 @@ jobs:
           #cml comment feature_importance.png --md >> report.md
           #cml comment residuals.png --md >> report.md
 
-          echo "![](./feature_importance.png)" >> report.md
-          echo "![](./residuals.png)" >> report.md
-          cml comment create report.md
+          #echo "![](./feature_importance.png)" >> report.md
+          #echo "![](./residuals.png)" >> report.md
+          #cml comment create report.md
           
